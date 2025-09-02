@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selechallenge.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="heading">Tour Booking Form</h1>
+        <h3 id="sub-heading">Note: *Mandatory Fields</h3>
+    </header>
+    <div class="line"></div> <br>
+    <section>
+        <form>
+            <div>
+                <label for="name"> Full Name <span class="star">*</span>:</label> <br>
+                <input type="text" id="name" required> <br> <br>
+            </div>
+            <div>
+                <label for="email">Email Address <span class="star">*</span>:</label> <br>
+                <input type="email" id="email" required> <br> <br>
+            </div>
+            <div>
+                <label for="select">Select Tour Package <span class="star">*</span>:</label> <br>
+                <select class="drop" id="select"> <br>
+                    <option value="select">Select Package</option>
+                    <option value="thousand">1000</option> 
+                    <option value="two thousand">2000</option> <br>
+                </select> <br> <br>
+            </div>
+            <div>
+                <label for="number">Number of Person <span class="star">*</span> :</label> <br>
+                <input type="number" id="number" required> <br> <br>
+            </div>
+            <div>
+                <label for="date">Date <span class="star">*</span>:</label> <br>
+                <input type="date"id="date" required> <br> <br>
+            </div>
+            <div>
+                <label for="alive"> What would you want to alive <span class="star">*</span>: </label> <br>
+                <input type="checkbox" class="check">Boarding <br>
+                <input type="checkbox" class="check">Food <br>
+                <input type="checkbox" class="check">Sight Seeing <br> <br>
+            </div>
+            <div>
+                <label for="terms">Terms and Conditions <span class="star">*</span>:</label> <br>
+                <input type="radio" class="check">I Agree <br> <br>
+            </div>
+            <!-- <span id="button"> -->
+             <button type="button" id="button">Book Now</button>
+            </span>
+        </form>
+    </section>
+</body>
+</html>

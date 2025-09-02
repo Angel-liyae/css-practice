@@ -1,0 +1,91 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+h5 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    margin: 0%;
+    color: darkgray;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    justify-content: start;
+} 
+.line{
+    border-right: 1px solid black;
+}
+.container1,
+.container2,
+.container3,
+.container4,
+.container5{
+    padding: 20px;
+}
+.item1{
+    font-size: 40px;
+    padding: 50px;
+    font-style: italic;
+    letter-spacing: -2px;
+}
+.linetop{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 70px;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.para{
+    color: darkgray;
+    font-style: italic;
+}
+.item2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',Arial;
+    font-size: 40px;
+    line-height: 80px;
+}
+.item2a{
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -2px;
+}
+.item3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.item3a{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.item3b{
+    font-size: 25px;
+    padding: 20px;
+    line-height: 100px;
+   
+}
+.item4{
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -2px;
+}
+.item5{
+    font-size: 35px;
+    font-weight: bolder;
+}
