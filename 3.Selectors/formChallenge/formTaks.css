@@ -1,61 +1,66 @@
-body{
+body {
     /* margin: 0px; */
+    overflow: hidden;
     background-image: url("travelform-background.png");
-    background-size:cover;
+    background-size: cover;
     font-size: large;
-    background-position:center
+    background-position: center
 }
 
- header{
+header {
     color: white;
     font-weight: bold;
-    
- }
 
- #sub-heading{
+}
+
+#sub-heading {
     color: red;
     font-weight: bold;
     margin-top: -10px;
- }
- 
- .star{
+}
+
+.star {
     color: red;
- }
- 
- #button{
+}
+
+#button {
     background-color: red;
     color: white;
     font-weight: bold;
     font-size: large;
 }
-input[required]{
-        box-sizing: border-box;
-        width: 300px;
-    }
 
-.drop{
+input[required] {
     box-sizing: border-box;
     width: 300px;
 }
-label{
+
+.drop {
+    box-sizing: border-box;
+    width: 300px;
+}
+
+label {
     font-weight: bold;
 }
 
-.line{
-   border-top: 2px solid white;
-    
-}
-.check{
-
-     /* background-clip: inherit; */
-     appearance: none; 
-     border: 1px solid black;
-     height: 10px;
-     width: 10px;
-     
+.line {
+    border-top: 2px solid white;
 
 }
-.check:checked{
+
+.check {
+
+    /* background-clip: inherit; */
+    appearance: none;
+    border: 1px solid black;
+    height: 10px;
+    width: 10px;
+
+
+}
+
+.check:checked {
     accent-color: black;
     appearance: checked;
 }
